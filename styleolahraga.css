@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.utama {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url(olahraga.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(4px) brightness(30%);
+}
+
+
+.atas {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: rgb(245, 60, 60);
+    border-bottom: 2px solid black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(189, 112, 112);
+    font-size: 30px;
+}
+
+.logo span {
+    color: rgb(31, 91, 182);
+}
+
+.judul {
+    text-align: center;
+    color: rgb(187, 11, 11);
+    padding-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.daftar {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    background: transparent;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+}
+
+.kartu {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px grey;
+    position: relative;
+    height: 400px;
+}
+
+.gambar img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.teks {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.kartu-link {
+    text-decoration: none;
+    color: black;
+}
+
+.span-1 {
+    color: rgb(189, 112, 112);
+}
+
+.span-2 {
+    color: rgb(31, 91, 182);
+}
+
+.kartu:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 40px red;
+}

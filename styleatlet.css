@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.utama {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url(olahraga.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(4px) brightness(100%);
+}
+
+
+.atas {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: rgb(245, 60, 60);
+    border-bottom: 2px solid black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(189, 112, 112);
+    font-size: 30px;
+}
+
+.logo span {
+    color: rgb(31, 91, 182);
+}
+
+.pembantu-dunia {
+    background-color: transparent;
+    padding: 100px;
+    position: relative;
+}
+
+.pembantu-indonesia {
+    background-color: transparent;
+    padding: 100px;
+    position: relative;
+}
+
+.judul {
+    width: 100%;
+    text-align: center;
+    color: rgb(207, 23, 23);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.judul h1 {
+    text-align: center;
+}
+
+.pembungkus-dunia {
+    margin: 500px auto 100px !important;
+}
+
+.pembungkus-indonesia {
+    margin: 500px auto 100px !important;
+}
+
+.wadah {
+  background: transparent;
+  width: 100%;
+}
+
+.kotak {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(163, 143, 143, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    margin: 100px 0px;
+}
+
+.subjudul {
+    text-align: center;
+    padding: 20px;
+}
+
+.baris {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 3fr);
+  justify-items: stretch;
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  gap: 0;
+}
+
+.gambar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.gambar img {
+  width: 200px;
+  height: 300px;     
+  object-fit: contain;
+  background-size: cover;
+}
+
+.teks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: black;
+  text-align: left;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.teks ol {
+    list-style-type: none;
+}
+
+.teks ol li {
+    font-size: 30px;
+}
+
+.span-1 {
+    color: rgb(189, 112, 112);
+}
+
+.span-2 {
+    color: rgb(31, 91, 182);
+}
